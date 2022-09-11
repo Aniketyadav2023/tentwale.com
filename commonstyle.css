@@ -1,0 +1,246 @@
+*{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:#f81451;
+    width: 1200px;
+    margin: auto;
+}
+.navbar  li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 241, 241);
+}
+.navbar  li{
+    list-style: none;
+    padding: 20px 0px;
+}
+.navbar  li a:hover{
+    color: black;
+}
+
+
+/* vendor list */
+
+.our-ven{
+    width: 1200px;
+    background-color: #F6F6F6;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.vendor {
+    width: 1200px;
+    background-color: #F6F6F6;
+    margin: auto;
+    /* margin-top: 10px; */
+
+}
+.vendor .vendor-list{
+    width: 370px;
+    margin-left: 18px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.vendor .vendor-list:hover{
+    background-color: white;
+    transition: ease-in-out;
+    transform: scale(1.01);
+}
+.vendor .vendor-list img{
+    width: 100%;
+}
+.ven-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ven-name p{
+    padding-right: 10px;
+}
+.ven-name h4{
+    padding-left: 10px;
+}
+.ven-name i{
+    color: #f0265c;
+}
+.vendor .vendor-list p,h5{
+    padding-left: 10px;
+}
+.vendor .vendor-list .nav-contact{
+    width: 100%;
+    /* text-align: center;
+    padding-top: 10px;
+    border:1px solid #f0265c;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px; */
+    display: flex;
+    justify-content: space-around;
+}
+.vendor .vendor-list .nav-contact p{
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.vendor .vendor-list .nav-contact a{
+    color: black;
+    text-decoration: none;
+ }
+.vendor .vendor-list .nav-contact p a:hover{
+    background-color: #f0265c;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.vendor .vendor-list .nav-contact p:hover{
+    color: white;
+    background-color: #f0265c;
+    transition: 0.7s;
+    outline: none;
+    cursor: pointer;
+
+    
+}
+
+/* footer section */
+.footer{
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+    height: 50ch;
+    display: flex;
+    background-color: rgba(0,0,0,0.9);
+    color: #c3dcf2;
+}
+.foot{
+    margin-top: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.foot p:hover{
+    color:white;
+}
+.foot h1{
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer .contact i{
+    margin-right: 5px;
+}
+.footer .srvs{
+    width: 100%;
+
+}
+.footer .about-us{
+    width: 100%;
+
+}
+.footer .follow{
+    width: 100%;
+
+}
+.footer .follow i{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer .follow i:hover{
+    color: white;
+}
+.ff{
+    color: white;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: -30PX;
+}
+
+
+
+/* client section */
+.client{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    height: 40vh;
+
+}
+.client .user{
+    width: 33%;
+    margin-left: 25px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #fff3f3;
+    /* background-color: rgba(0, 0,0,0.2); */
+}
+.client .user:hover{
+    /* box-shadow:10px 10px rgba(0,0,0,0.1); */
+    box-shadow: 0 0 20px 0px rgba(0,0,0, 0.7);
+}
+.client img{
+    width: 100px;
+    margin:20px 20px;
+    border-radius: 50%;
+}
+section h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* work images section */
+.work-images{
+    width: 1200px;
+    margin: auto;
+    background-color: #fff3f3;
+
+}
+.work-images h2{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.work-images p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.work-images h3{
+    font-size: 30px;
+    text-align: center;
+}
+.w-img{
+    width: 100%;
+    display: inline-block;
+}
+.w-img img{
+    width: 31%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* display: inline-block; */
+
+}
+.w-img img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: .7s;
+}
