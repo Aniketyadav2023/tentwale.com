@@ -363,7 +363,7 @@ opacity: 0;
     }
     .main-img p{
         font-size: 20px;
-        padding-top :60%
+        padding-top :80%
     }
     .main-img input{
         height: 20px;
@@ -422,7 +422,7 @@ opacity: 0;
 
     .footer{
         width: 100%;
-        margin-top: 120%;
+        margin-top: 130%;
         display: block;
         background-color: black;
         height: auto;
